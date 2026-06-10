@@ -54,7 +54,7 @@ The platform automates the collection of internship announcements, cleans and no
 
 ---
 
-🌟 Key Features
+## 🌟 Key Features
 Automated Data Collection: Continuous mining of targeted internship postings.
 
 Robust Preprocessing: Automated data cleaning and data type normalization using Pandas.
@@ -67,7 +67,7 @@ Dynamic Search: Full-text search capability by city and specific industry keywor
 
 Scheduled Pipelines: Fully automated daily updates orchestrated via Linux Cron Jobs.
 
-🔄 Project Workflow
+## 🔄 Project Workflow
 Data Collection ➔ HTML Parsing ➔ Cleaning & Transformation ➔ Duplicate Detection ➔ MySQL Storage ➔ PHP Portal ➔ User Search
 
 Extraction: Python scripts request and parse raw HTML content from target job boards.
