@@ -2,7 +2,7 @@
 
 An end-to-end internship data engineering platform developed as a Master's Challenge Hub project. 
 
-The platform automates the collection of internship announcements from www.indeed.com, cleans and normalizes the data into a centralized cloud database, and exposes them through a searchable, user-friendly web portal.
+The platform automates the collection of internship announcements from www.indeed.com using web scraping, cleans and normalizes the data into a centralized cloud database, and exposes them through a searchable, user-friendly web portal.
 
 ---
 
