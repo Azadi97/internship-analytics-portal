@@ -32,6 +32,26 @@ The platform automates the collection of internship announcements, cleans and no
 
 ---
 
+## 🏗️ System Architecture
+
+```text
+  [ Indeed.com ]
+        │
+        ▼
+ [ BeautifulSoup4 ] ──( HTML Parsing )
+        │
+        ▼
+  [ Python/Pandas ] ──( Data Transformation & Deduplication )
+        │
+        ▼
+[ MySQL Cloud DB ]  ──( Data Storage & Querying )
+        │
+        ▼
+ [ PHP Web Portal ] ──( User Interface )
+        │
+        ▼
+    [ Users ]
+
 ## 🌟 Key Features
 Automated Data Collection: Continuous mining of targeted internship postings.
 
@@ -57,24 +77,3 @@ Ingestion: Cleaned records are securely pushed into the MySQL cloud database.
 Delivery: The PHP frontend queries the database in real-time based on user search parameters (keywords, location) to serve active internship leads.
 
 ---
-
-## 🏗️ System Architecture
-
-```text
-  [ Indeed.com ]
-        │
-        ▼
- [ BeautifulSoup4 ] ──( HTML Parsing )
-        │
-        ▼
-  [ Python/Pandas ] ──( Data Transformation & Deduplication )
-        │
-        ▼
-[ MySQL Cloud DB ]  ──( Data Storage & Querying )
-        │
-        ▼
- [ PHP Web Portal ] ──( User Interface )
-        │
-        ▼
-    [ Users ]
-
