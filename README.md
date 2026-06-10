@@ -54,27 +54,27 @@ The platform automates the collection of internship announcements from www.indee
 ```
 
 ## 🌟 Key Features
-Automated Data Collection: Continuous mining of targeted internship postings.
+* **Automated Data Collection:** Continuous mining of targeted internship postings.
 
-Robust Preprocessing: Automated data cleaning and data type normalization using Pandas.
+* **Robust Preprocessing:** Automated data cleaning and data type normalization using Pandas.
 
-Duplicate Detection: Smart filtering to ensure unique job postings and prevent database bloat.
+* **Duplicate Detection:** Smart filtering to ensure unique job postings and prevent database bloat.
 
-Cloud Architecture: Structured storage in a cloud-hosted MySQL database.
+* **Cloud Architecture:** Structured storage in a cloud-hosted MySQL database.
 
-Dynamic Search: Full-text search capability by city and specific industry keywords.
+* **Dynamic Search:** Full-text search capability by city and specific industry keywords.
 
-Scheduled Pipelines: Fully automated daily updates orchestrated via Linux Cron Jobs.
+* **Scheduled Pipelines:** Fully automated daily updates orchestrated via Linux Cron Jobs.
 
 ## 🔄 Project Workflow
 Data Collection ➔ HTML Parsing ➔ Cleaning & Transformation ➔ Duplicate Detection ➔ MySQL Storage ➔ PHP Portal ➔ User Search
 
-Extraction: Python scripts request and parse raw HTML content from target job boards.
+* **Extraction:** Python scripts request and parse raw HTML content from target job boards.
 
-ETL Pipeline: Data is fed into a Pandas pipeline where missing values are handled, strings are stripped, and duplicates are removed.
+* **ETL Pipeline:** Data is fed into a Pandas pipeline where missing values are handled, strings are stripped, and duplicates are removed.
 
-Ingestion: Cleaned records are securely pushed into the MySQL cloud database.
+* **Ingestion:** Cleaned records are securely pushed into the MySQL cloud database.
 
-Delivery: The PHP frontend queries the database in real-time based on user search parameters (keywords, location) to serve active internship leads.
+* **Delivery:** The PHP frontend queries the database in real-time based on user search parameters (keywords, location) to serve active internship leads.
 
 ---
