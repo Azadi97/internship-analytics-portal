@@ -51,6 +51,7 @@ The platform automates the collection of internship announcements, cleans and no
         │
         ▼
     [ Users ]
+```
 
 ## 🌟 Key Features
 Automated Data Collection: Continuous mining of targeted internship postings.
